@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+header {
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.attribution {
+  font-size: 18px;
+  text-align: center;
+  background-color: hsla(202, 11%, 66%, 0.432);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+.logoCopy {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.H1_P {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.H1_P p {
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+  max-width: 700px;
+
+}
+.H1_P h1 {
+  color: hsl(210, 10%, 33%);
+  text-align: center;
+}
+.btns {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+}
+.btns .iosBtn {
+  border-radius: 30px;
+  border: none;
+  background-color: hsl(171, 66%, 44%);
+  width: 160px;
+  height: 40px;
+  color: aliceblue;
+}
+.btns .macBtn {
+  color: aliceblue;
+  border-radius: 30px;
+  width: 160px;
+  height: 40px;
+  border: none;
+  background-color: hsl(233, 100%, 69%);
+}
+.gap1,
+.H1_P {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.text2emeMain {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  
+}
+.text2emeMain h1 {
+  text-align: center;
+  color: hsl(210, 10%, 33%);
+}
+.text2emeMain p {
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  max-width: 700px;
+}
+.pcAvecKtbate {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+.pcAvecKtbate .TextsDroitePc {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  width: 400px;
+}
+.phoneTab {
+  margin-top: 40px;
+}
+.phoneTab .textsPhoneTab {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.phoneTab .textsPhoneTab h1 {
+  text-align: center;
+  color: hsl(210, 10%, 33%);
+}
+.phoneTab .textsPhoneTab p {
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  max-width: 700px;
+
+}
+.phoneTab .picturePhoneTab {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.main3eme .textsSuper {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.main3eme .textsSuper h1 {
+  text-align: center;
+  color: hsl(210, 10%, 33%);
+}
+.main3eme .textsSuper p {
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  max-width: 700px;
+
+}
+.main3eme .symbolesWithTexts {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.main3eme .symbolesWithTexts .blacklist,
+.main3eme .symbolesWithTexts .snippets,
+.main3eme .symbolesWithTexts .preview {
+  margin-top: 60px;
+  text-align: center;
+
+}
+.main3eme .symbolesWithTexts .blacklist h3,
+.main3eme .symbolesWithTexts .snippets h3,
+.main3eme .symbolesWithTexts .preview h3 {
+  color: hsl(210, 10%, 33%);
+  margin-top: 20px;
+}
+.main3eme .symbolesWithTexts .blacklist p,
+.main3eme .symbolesWithTexts .snippets p,
+.main3eme .symbolesWithTexts .preview p {
+  margin-top: 20px;
+  color: hsl(201, 11%, 66%);
+  max-width: 700px;
+
+}
+.main3eme .symbolesWithTexts .blacklist img,
+.main3eme .symbolesWithTexts .snippets img,
+.main3eme .symbolesWithTexts .preview img {
+  margin-top: 20px;
+}
+.main4eme {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 120px;
+}
+.main5eme .clipbordFinal {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.main5eme .clipbordFinal h1 {
+  text-align: center;
+  color: hsl(210, 10%, 33%);
+}
+.main5eme .clipbordFinal p {
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  max-width: 700px;
+
+}
+.main5eme .btns {
+  margin-top: 40px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  background-color: hsla(202, 11%, 66%, 0.432);
+
+}
+footer .logoFooter {
+  display: flex;
+  width: 150px;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .icons {
+  display: flex;
+  width: 150px;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .parFooter {
+  height: 120px;
+  width: 550px;
+  margin-top: 70px;
+}
+footer .parFooter .faqsOlifsstro {
+  display: flex;
+  justify-content: space-between;
+}
+footer .parFooter .conatctUsOlifsstro {
+  margin-top: 20px;
+  display: flex;
+  gap: 98px;
+}
